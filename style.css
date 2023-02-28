@@ -3,46 +3,62 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center fixed;
+  background: url(Home.png) no-repeat center fixed;
   -webkit-backround-size:cover;
   -moz-background-size: cover;
   -o-background-size:cover;
   background-size: cover;
+  /* background-color: #216ad9; */
+}
+footer{
+  bottom: 5vh;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  position: absolute;
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 5rem;
   color:white;
 }
 
-hr{
-border-color: #F05F44;
-border-width: 3px;
-max-width: 65px;
-margin: revert;
+.logo{
+  color:white;
 }
 
-.buffer{
- height:10rem;
+.banner{
+  position: absolute;
+  top: 25%;
 }
 
 .btn{
-  font-weight: 700;
-  border-radius: 300px;
-  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .btn-primary{
-  background-color: #F05F44;
-  border-color: #F05F44;
+  background-color: #216ad9;
+  border-color: white;
 }
 
 .btn-primary:hover{
-  background-color:#ee4b08 ;
-  border-color: #ee4b08;
-  border-width: 4px;
+  background-color:#216ad9 ;
+  border-color: white;
+  transform: scale(1.2); 
 }
 
 .btn-xl{
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    font-size: 4rem;
+  }
+  body,html{
+    background: url(Home2.png) no-repeat center fixed;
+    -webkit-backround-size:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+  }
 }
