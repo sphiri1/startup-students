@@ -8,23 +8,27 @@ html {
   -moz-background-size: cover;
   -o-background-size:cover;
   background-size: cover;
-  /* background-color: #216ad9; */
 }
+
+.homepage{
+  margin-left:20px;
+  margin-right: 20px;
+  padding-top:3vh;
+}
+
 footer{
   bottom: 0;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   letter-spacing: 3px;
   position: fixed !important;
-  background-color: #216ad9;
-  padding-top: 20px;
+}
+
+.container{
+  margin:0 !important;
 }
 
 .navbar-dark .navbar-toggler {
-  border-color:rgba(0,0,0,0) !important;
-}
-
-.navbar{
-  border-bottom: 1px solid white;
+  border-color:rgba(255,255,255,.5)!important;
 }
 
 h1{
@@ -35,12 +39,16 @@ h1{
 
 .logo{
   color:white;
+  letter-spacing: 0.2rem;
 }
 
 .banner{
-  position: relative;
-    top: 50%;
-    transform: translateY(-80%);
+    place-content: center;
+    margin: 0;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn{
@@ -48,18 +56,21 @@ h1{
 }
 
 .btn-primary{
-  background-color: #216ad9;
+  background-color: transparent;
   border-color: white;
 }
 
 .btn-primary:hover{
-  background-color:#216ad9 ;
-  border-color: white;
-  transform: scale(1.2); 
+  background-color:#6f684c !important ;
+  border-color: #6f684c;
+  color:white ;
+  
 }
 
 .btn-xl{
-  padding: 0.5rem 2rem;
+  padding: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
 .link-text{
@@ -67,8 +78,7 @@ h1{
 }
 
 .link-text:hover{
-  transform: scale(1.2);
-  color:white !important;
+  color:#6f684c !important;
 }
 
 .gap{
@@ -81,14 +91,6 @@ h1{
   }
 
   footer{
-    font-size: 1rem;
-  }
-
-  body,html{
-    background: url(./Home/Home2.png) no-repeat center fixed;
-    -webkit-backround-size:cover;
-    -moz-background-size: cover;
-    -o-background-size:cover;
-    background-size: cover;
+    font-size: 0.5rem;
   }
 }
