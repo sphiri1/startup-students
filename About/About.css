@@ -1,0 +1,36 @@
+.about{
+    background-color: #1b201e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner2{
+    margin:0;
+    padding: 0 3% 0 3%;
+    justify-content: center;
+}
+
+.aboutHeader{
+    text-align:right;
+    font-size: 2.5rem;
+    letter-spacing: 0.4rem;
+    color:#c4baa6;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.card-style{
+    border: none;
+    /* color:white;
+    background-color: transparent; */
+}
+
+.card-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    
+}
+.site{
+    font-size: 0.8rem;
+}
+
+
+

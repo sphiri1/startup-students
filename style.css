@@ -1,13 +1,15 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
+.home{
   font-family: 'Montserrat', sans-serif;
   background: url(./Home/Home.png) no-repeat center fixed;
   -webkit-backround-size:cover;
   -moz-background-size: cover;
   -o-background-size:cover;
   background-size: cover;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
 }
 
 .homepage{
@@ -29,6 +31,10 @@ footer{
 
 .navbar-dark .navbar-toggler {
   border-color:rgba(255,255,255,.5)!important;
+}
+
+.nav-link.active{
+  color: #c4baa6 !important;
 }
 
 h1{
@@ -78,7 +84,7 @@ h1{
 }
 
 .link-text:hover{
-  color:#6f684c !important;
+  color:#c4baa6 !important;
 }
 
 .gap{
@@ -88,6 +94,15 @@ h1{
 @media only screen and (max-width: 750px) {
   h1 {
     font-size: 4rem;
+  }
+
+  .aboutHeader{
+    font-size: 2rem !important;
+    text-align: center !important;
+  }
+  
+  .banner2{
+    padding: 5% 3% 0 3% !important;
   }
 
   footer{
