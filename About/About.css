@@ -1,9 +1,9 @@
 .about{
-     background-color: linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
-     background-color: -moz-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
-     background-color: -o-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
-     background-color: -webkit-linear-gradient(right,rgb(68 65 60) ,rgb(40 39 37));
-     background-color: -ms-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
+     background-image: linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
+     background-image: -moz-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
+     background-image: -o-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
+     background-image: -webkit-linear-gradient(right,rgb(68 65 60) ,rgb(40 39 37));
+     background-image: -ms-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
     font-family: 'Montserrat', sans-serif;
 }
 
