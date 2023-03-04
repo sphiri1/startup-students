@@ -2,7 +2,7 @@
      background: linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
      background: -moz-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
      background: -o-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
-     background: -webkit-linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
+     background: -webkit-linear-gradient(right,rgb(68 65 60) ,rgb(40 39 37));
     font-family: 'Montserrat', sans-serif;
 }
 
