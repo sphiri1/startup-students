@@ -1,11 +1,11 @@
 .about{
-    background-color: #1b201e;
+     background: linear-gradient(to left,rgb(68 65 60) ,rgb(40 39 37));
     font-family: 'Montserrat', sans-serif;
 }
 
 .banner2{
     margin:0;
-    padding: 0 3% 0 3%;
+    padding: 0 3% 2.5% 3%;
     justify-content: center;
 }
 
@@ -19,8 +19,6 @@
 
 .card-style{
     border: none;
-    /* color:white;
-    background-color: transparent; */
 }
 
 .card-text{

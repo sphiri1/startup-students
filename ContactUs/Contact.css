@@ -1,0 +1,17 @@
+
+form{
+    color:white;
+    width: 50%;
+    margin: auto;
+}
+
+.header-text{
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    color:#c4baa6;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.form-group{
+    margin: auto;
+}

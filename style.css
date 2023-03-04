@@ -96,13 +96,21 @@ h1{
     font-size: 4rem;
   }
 
+  form{
+    width:70% !important;
+  }
+
   .aboutHeader{
     font-size: 2rem !important;
     text-align: center !important;
   }
   
   .banner2{
-    padding: 5% 3% 0 3% !important;
+    padding: 5% 3% 5% 3% !important;
+  }
+
+  .header-text{
+    font-size: 2.4rem !important;
   }
 
   footer{
